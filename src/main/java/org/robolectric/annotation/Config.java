@@ -1,6 +1,5 @@
 package org.robolectric.annotation;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.lang.annotation.Annotation;
 import java.lang.annotation.Documented;
@@ -11,6 +10,8 @@ import java.lang.annotation.Target;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Properties;
+
+import com.sun.istack.internal.NotNull;
 
 /**
  * Indicate that robolectric should look for values that is specific by those qualifiers
